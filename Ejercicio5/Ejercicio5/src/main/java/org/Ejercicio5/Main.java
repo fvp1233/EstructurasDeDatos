@@ -4,9 +4,9 @@ import java.util.TreeMap;
 
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Hello world!");
+        mostrarPrecios();
     }
-    public static void sss() {
+    public static void mostrarPrecios() {
     TreeMap<String, Integer> precios = new TreeMap<>();
 
         precios.put(" computadora ",1000);
