@@ -4,22 +4,22 @@ import java.util.TreeMap;
 
 public class Main {
     public static void main(String[] args) {
-        mostrarPrecios();
+    mostrarTemperaturas();
     }
 
-    public static void mostrarPrecios(){
-        TreeMap <String, Integer> precios = new TreeMap<>();
+    public static void mostrarTemperaturas(){
+        TreeMap <String, Integer> temperaturaCiudad = new TreeMap<>();
 
-        precios.put(" computadora ",1000);
-        precios.put( " mouse ", 30);
-        precios.put(" teclado ", 25);
-        precios.put( " monitor ", 200);
+        temperaturaCiudad.put(" Vancuber ",-12);
+        temperaturaCiudad.put( " San Salvador ", 35);
+        temperaturaCiudad.put(" California ", 18);
+        temperaturaCiudad.put( " Apopa ", 200);
 
-        System.out.println("Los productos y sus precios son: " + precios);
+        System.out.println("La temperautra en gradios celcius en las siguientes ciudades es de : " + temperaturaCiudad);
 
-        System.out.println("El producto mas caro es: " + precios.firstEntry());
-        System.out.println("El producto mas barato es: " + precios.lastEntry());
-        System.out.println("Valor de una computadora es de:  " + precios.get(" computadora "));
+        System.out.println("La ciudad mas caliente es: " + temperaturaCiudad.firstEntry());
+        System.out.println("La ciudad mas fria es: " + temperaturaCiudad.lastEntry());
+
 
 
     }
