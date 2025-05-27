@@ -17,8 +17,10 @@ public class Main {
 
         System.out.println("Los productos y sus precios son: " + precios);
 
-        System.out.println("El producto mas antiguo es: " + precios.firstEntry());
-        System.out.println("El producto mas reciente es: " + precios.lastEntry());
+        System.out.println("El producto mas caro es: " + precios.firstEntry());
+        System.out.println("El producto mas barato es: " + precios.lastEntry());
         System.out.println("Valor de una computadora es de:  " + precios.get(" computadora "));
+
+
     }
 }
